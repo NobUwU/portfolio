@@ -1,17 +1,22 @@
 {
   "compilerOptions": {
-    "module": "CommonJS",
+    "module": "ESNext",
     "moduleResolution": "node",
-    "outDir": "dist",
-    "lib": ["es2020"],
-    "target": "es2020",
-    "strict": true,
     "esModuleInterop": true,
     "declaration": false,
-    "removeComments": false,
-    "baseUrl": "."
+    "baseUrl": ".",
+    "sourceMap": true,
+    "lib": ["DOM", "ES2020", "WebWorker", "WebWorker.ImportScripts"],
+    "allowSyntheticDefaultImports": true,
+    "strictFunctionTypes": false,
+    "skipLibCheck": true,
+    "jsx": "react",
+    "strict": true,
+    "noImplicitAny": true,
+    "downlevelIteration": true,
   },
   "include": [
-    "./server/index.ts",
-  ],
+    "src/index.tsx", 
+    "src/shims.d.ts"
+  ]
 }
