@@ -26,7 +26,23 @@ html {
 }
 body {
   font-family: 'Chivo', sans-serif;
+  // font-size: 1.5rem;
   // background-color: var(--background);
   color: var(--text);
   height: 100%;
+  width: 100%;
+  // padding: 3rem;
+}
+.h {
+  font-family: 'Heading';
+  padding-top: 0.2rem;
+}
+.p {
+  font-family: 'Paragraph';
+}
+.\37 {
+  font-family: '7seg';
+}
+.s {
+  font-family: 'Smol';
 }

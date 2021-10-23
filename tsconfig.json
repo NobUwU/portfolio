@@ -11,8 +11,8 @@
     "strictFunctionTypes": false,
     "skipLibCheck": true,
     "jsx": "react",
-    "strict": true,
-    "noImplicitAny": true,
+    // "strict": true,
+    // "noImplicitAny": true,
     "downlevelIteration": true,
   },
   "include": [
