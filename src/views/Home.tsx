@@ -84,9 +84,9 @@ const Home: React.FC = () => {
           <img id="piximyselfimg" src="/avatar.png" alt="me" ref={ref} />
           <canvas id="piximyself"></canvas>
         </div>
-        <div id="name">
+        {/* <div id="name">
           <h1 className="h">NOBU</h1>
-        </div>
+        </div> */}
         <div id="status">
           <h1 className="h">WIP</h1>
           <p className="s">status</p>
