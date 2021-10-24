@@ -144,10 +144,24 @@ class Pixelate {
     document.body.appendChild(tempCanvas)
 
     // Configure pixelation
-    this.ctx.imageSmoothingEnabled = false
+    this.removeImageSmoothing()
 
     this.ctx.drawImage(tempCanvas, 0, 0, scaledW, scaledH, 0, 0, this.drawFrom.naturalWidth, this.drawFrom.naturalHeight)
     tempCanvas.remove()
+
+    return this
+  }
+  public removeImageSmoothing() {
+    this.ctx.imageSmoothingEnabled       = false
+    // @ts-expect-error
+    this.ctx.webkitImageSmoothingEnabled = false
+    // @ts-expect-error
+    this.ctx.mozImageSmoothingEnabled    = false
+    // @ts-expect-error
+    this.ctx.msImageSmoothingEnabled     = false
+    // @ts-expect-error
+    this.ctx.oImageSmoothingEnabled      = false
+
 
     return this
   }

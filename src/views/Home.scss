@@ -22,12 +22,16 @@
     $bgColor: #381f1f
   );
   img {
-    // height: 300px;
-    // width: 300px;
-    position: fixed;
-    top: 0;
-    left: 0;
-    visibility: hidden;
+    height: 300px;
+    width: 300px;
+    // position: fixed;
+    // top: 0;
+    // left: 0;
+    // visibility: hidden;
+    margin-left: -1rem;
+    margin-right: -1rem;
+    margin-bottom: -1rem;
+    margin-top: -1rem;
   }
   canvas {
     width: 300px;
