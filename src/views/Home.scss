@@ -1,79 +1,141 @@
-@import "~mixins/pixel";
+@import "~mixins/breakpoints.scss";
+
 #home {
-  width: 100vw;
-  height: 100vh;
-  display: flex;
+  --width: 80%;
+  --padding: 2rem;
+  --nav-size: 4rem;
   overflow: hidden;
-  // flex-direction: column;
-  // margin: 1.5rem 0.8rem 1.5rem 0.8rem;
-  justify-content: center;
-  align-items: center;
-}
-#avatar {
-  // margin: 10rem;
-  // width: 10rem;
-  padding: 0rem 1rem 0rem 1rem;
-  background: var(--accent);
-  text-align: center;
-  font-size:1rem;
-  @include pixel-border-thicc(
-    $pixel: .125rem,
-    $color: #532b2b,
-    $bgColor: #381f1f
-  );
-  img {
-    height: 300px;
-    width: 300px;
-    // position: fixed;
-    // top: 0;
-    // left: 0;
-    // visibility: hidden;
-    margin-left: -1rem;
-    margin-right: -1rem;
-    margin-bottom: -1rem;
-    margin-top: -1rem;
+  .accent {
+    color: var(--accent);
   }
-  canvas {
-    width: 300px;
-    height: 300px;
-    margin-left: -1rem;
-    margin-right: -1rem;
-    // margin-bottom: 0.85rem;
-    margin-bottom: -1rem;
-    margin-top: -1rem;
+  .dim {
+    color: #ffffff70;
   }
-}
-#name {
-  text-align: center;
-  margin-top: 2.8rem;
-  @include pixel-border-thicc(
-    $pixel: .125rem,
-    $color: #532b2b,
-    $bgColor: #381f1f
-  );
-  h1 {
-    font-size: 2.3rem;
-    margin-bottom: 0rem;
-    // margin-top: -1rem;
+  .smol {
+    font-size: 1rem;
+  }
+  .nav {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    align-items: center;
+    width: 100%;
+    height: var(--nav-size);
+    background-color: var(--background);
+    padding: 0rem var(--padding) 0rem var(--padding);
+    p {
+      &:hover {
+        cursor: pointer;
+      }
+    }
+  }
+  .container {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    .item-container {
+      min-height: calc(100vh - var(--nav-size));
+      max-height: calc(100vh - var(--nav-size));
+      min-width: 100vw;
+      max-width: 100vw;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      overflow-y: auto;
+    }
   }
 }
-#status {
-  text-align: center;
-  margin-top: 2.8rem;
-  @include pixel-border-thicc(
-    $pixel: .125rem,
-    $color: #532b2b,
-    $bgColor: #381f1f
-  );
-  h1 {
-    margin-bottom: 0rem;
-    font-size: 2.5rem;
-    font-weight: 200;
-    // margin-top: -1rem;
-  }
+
+#introduction {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 10rem;
+  width: 80%;
   p {
-    // font-weight: 900;
-    margin-top: -0.1rem;
-    font-size: 1.5rem;
+    font-size: 1.15rem;
+    &.offset-right {
+      margin-left: 0.2rem;
+      margin-bottom: 0.5rem;
+    }
+    &.offset-down {
+      margin-top: 2rem;
+    }
+    &.crunch {
+      max-width: 500px;
+    }
+  }
+  h1 {
+    margin-top: -0.5rem;
+    font-size: 5rem;
+    &.offset-left {
+      margin-left: -0.1rem;
+    }
+  }
+  img {
+    width: 20rem;
+    height: 20rem;
+    @include md {
+      display: none;
+    }
+  }
+  @include sm {
+    width: 100%;
+    height: 100%;
+    padding-top: 0;
+    margin-top: -1rem;
+    padding: 1rem;
+    align-items: center;
+    justify-content: center;
+    h1 {
+      font-size: 4.5rem;
+    }
+    p {
+      font-size: 1rem;
+    }
+  }
+  .socials {
+    display: flex;
+    flex-direction: row;
+    // align-items: center;
+    // justify-content: center;
+    margin-top: 2rem;
+    gap: 1rem;
+    .item {
+      width: 3rem;
+      height: 3rem;
+      &.hover-git {
+        svg {
+          transition: fill 0.1s ease;
+          fill: #dddddd;
+        }
+        &:hover {
+          cursor: pointer;
+          svg {
+            transition: fill 0.1s ease;
+            fill: #ff69b4;
+          }
+        }
+      }
+      &.hover {
+        svg {
+          transition: fill 0.1s ease;
+          stroke: #dddddd;
+        }
+        &:hover {
+          cursor: pointer;
+          svg {
+            transition: fill 0.1s ease;
+            stroke: #ff69b4;
+          }
+        }
+      }
+      &.discord {
+        svg {
+          width: 3rem;
+          height: 3rem;
+        }
+      }
+    }
   }
 }
