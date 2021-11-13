@@ -75,8 +75,8 @@ const Home: React.FC = () => {
         <section className="item-container">
           <div id="introduction">
             <div className="content">
-              <p className="offset-right accent"> Hiya, I'm</p>
-              <h1 className="offset-left">Nobu.</h1>
+              {/* <p className="offset-right accent"> Hiya, I'm</p> */}
+              <h1 className="offset-left">Hiya, I'm <span className="accent">Nobu.</span></h1>
               <h1 className="dim">I code things.</h1>
               <p className="offset-down dim crunch">I'm a software developer located in East Moline, Illinois specializing in creating and designing high-quality websites and applications</p>
               <div className="socials">
@@ -91,7 +91,7 @@ const Home: React.FC = () => {
                 </div>
               </div>
             </div>
-            <img src="/nobu-pixel.png" alt="nobu pixelated" />
+            <img src="/render.webp" alt="me" />
           </div>
         </section>
       </div>

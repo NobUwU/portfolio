@@ -9,7 +9,9 @@
     color: var(--accent);
   }
   .dim {
-    color: #ffffff75;
+    // color: #a0a0a0;
+    color: #858585;
+    // color: #ffffff75;
   }
   .smol {
     font-size: 1rem;
@@ -50,22 +52,27 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding-top: 10rem;
+  padding-top: 11rem;
   width: 80%;
+  overflow: hidden;
   p {
-    font-size: 1.15rem;
+    position: relative;
+    z-index: 999;
+    font-size: 1.3rem;
     &.offset-right {
       margin-left: 0.2rem;
       margin-bottom: 0.5rem;
     }
     &.offset-down {
-      margin-top: 2rem;
+      margin-top: 1rem;
     }
     &.crunch {
       max-width: 500px;
     }
   }
   h1 {
+    position: relative;
+    z-index: 999;
     margin-top: -0.5rem;
     font-size: 5rem;
     &.offset-left {
@@ -73,10 +80,28 @@
     }
   }
   img {
-    width: 20rem;
-    height: 20rem;
+    position: absolute;
+    top: -4rem;
+    right: 10rem;
+    // margin-top: -4rem;
+    width: auto;
+    height: 60rem;
+    filter: brightness(89%);
+    @include xl {
+      right: 3rem;
+    }
+    @include lg {
+      right: 0;
+      opacity: 60%;
+      filter: brightness(35%) saturate(60%);
+    }
     @include md {
-      display: none;
+      right: -10rem;
+    }
+    @include sm {
+      height: 50rem;
+      top: -2rem;
+      right: -12rem;
     }
   }
   @include sm {
@@ -84,17 +109,19 @@
     height: 100%;
     padding-top: 0;
     margin-top: -1rem;
-    padding: 1rem;
+    padding: 2rem;
     align-items: center;
     justify-content: center;
     h1 {
-      font-size: 4.5rem;
+      font-size: 2.5rem;
     }
     p {
-      font-size: 1rem;
+      font-size: 1.1rem;
     }
   }
   .socials {
+    position: relative;
+    z-index: 999;
     display: flex;
     flex-direction: row;
     // align-items: center;
@@ -113,7 +140,7 @@
           cursor: pointer;
           svg {
             transition: fill 0.1s ease;
-            fill: #ff69b4;
+            fill: var(--accent);
           }
         }
       }
@@ -126,7 +153,7 @@
           cursor: pointer;
           svg {
             transition: fill 0.1s ease;
-            stroke: #ff69b4;
+            stroke: var(--accent);
           }
         }
       }
