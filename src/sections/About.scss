@@ -1,0 +1,119 @@
+@import "~mixins/breakpoints.scss";
+
+#about {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+
+  user-select: none;
+  .content {
+    width: 100%;
+    padding-left: var(--padding-large);
+    padding-bottom: var(--padding-large);
+    p {
+      position: relative;
+      z-index: 999;
+      font-size: 1.3rem;
+      &.offset-right {
+        margin-left: 0.2rem;
+        margin-bottom: 0.5rem;
+      }
+      &.offset-down {
+        margin-top: 1rem;
+      }
+      &.crunch {
+        max-width: 500px;
+      }
+    }
+    h1 {
+      position: relative;
+      z-index: 999;
+      margin-top: -0.5rem;
+      font-size: 5rem;
+      &.offset-left {
+        margin-left: -0.1rem;
+      }
+    }
+    @include md {
+      padding: var(--padding-small);
+    }
+    @include sm {
+      h1 {
+        font-size: 2.5rem;
+      }
+      p {
+        font-size: 1.1rem;
+      }
+    }
+    .socials {
+      position: relative;
+      z-index: 999;
+      display: flex;
+      flex-direction: row;
+      margin-top: 2rem;
+      gap: 1rem;
+      .item {
+        width: 3rem;
+        height: 3rem;
+        &.hover-git {
+          svg {
+            transition: fill 0.1s ease;
+            fill: #dddddd;
+          }
+          &:hover {
+            cursor: pointer;
+            svg {
+              transition: fill 0.1s ease;
+              fill: var(--accent);
+            }
+          }
+        }
+        &.hover {
+          svg {
+            transition: fill 0.1s ease;
+            stroke: #dddddd;
+          }
+          &:hover {
+            cursor: pointer;
+            svg {
+              transition: fill 0.1s ease;
+              stroke: var(--accent);
+            }
+          }
+        }
+        &.discord {
+          svg {
+            width: 3rem;
+            height: 3rem;
+          }
+        }
+      }
+    }
+    img {
+      position: absolute;
+      top: -4rem;
+      right: 10rem;
+      width: auto;
+      height: calc(100% + 4rem);
+      filter: brightness(89%);
+      @include xl {
+        right: 3rem;
+      }
+      @include lg {
+        right: 0;
+        opacity: 60%;
+        filter: brightness(35%) saturate(60%);
+      }
+      @include md {
+        right: -10rem;
+      }
+      @include sm {
+        right: -10rem;
+      }
+    }
+  }
+}

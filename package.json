@@ -4,7 +4,6 @@
   "description": "nobuwu.dev",
   "homepage": "https://nobuwu.dev/",
   "author": "Nobu",
-  "license": "MIT",
   "repository": "https://github.com/NobUwU/portfolio",
   "scripts": {
     "dev": "cross-env NODE_ENV=development webpack serve --mode=development",
