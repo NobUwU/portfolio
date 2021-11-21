@@ -1,25 +1,18 @@
 @font-face {
-  src: url(~assets/fonts/Chivo.ttf) format('truetype');
+  src: url(~assets/fonts/Chivo-Regular.ttf) format('truetype');
   font-weight: 400;
   font-family: 'Chivo';
+  font-display: swap;
 }
 @font-face {
-  src: url(~assets/fonts/Heading.woff) format('woff');
+  src: url(~assets/fonts/Chivo-Bold.ttf) format('truetype');
   font-weight: 400;
-  font-family: 'Heading';
+  font-family: 'ChivoBold';
+  font-display: swap;
 }
 @font-face {
-  src: url(~assets/fonts/Paragraph.ttf) format('truetype');
+  src: url(~assets/fonts/Chivo-Light.ttf) format('truetype');
   font-weight: 400;
-  font-family: 'Paragraph';
-}
-@font-face {
-  src: url(~assets/fonts/Smol.woff) format('woff');
-  font-weight: 400;
-  font-family: 'Smol';
-}
-@font-face {
-  src: url(~assets/fonts/7seg.ttf) format('truetype');
-  font-weight: 400;
-  font-family: '7seg';
+  font-family: 'ChivoLight';
+  font-display: swap;
 }

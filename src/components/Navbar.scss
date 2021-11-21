@@ -1,12 +1,32 @@
+@import "~mixins/breakpoints.scss";
+
 #nav {
+  // position: relative;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-end;
   width: 100%;
   height: var(--nav-size);
-  background-color: var(--background);
-
+  // background-color: var(--background);
   user-select: none;
+  .borgerArea {
+    display: none;
+    position: relative;
+    z-index: 9999;
+    margin-right: calc(var(--padding-small) - 10px);
+    svg {
+      height: 30px;
+      cursor: pointer;
+      &:hover {
+        path {
+          stroke: var(--accent);
+        }
+      }
+    }
+    @include sm {
+      display: unset;
+    }
+  }
   .inner {
     padding: 0rem var(--padding-small) 0rem var(--padding-small);
     width: 100%;
@@ -14,13 +34,32 @@
     // max-width: var(--clamp);
     display: flex;
     flex-direction: row;
-    gap: 2rem;
     align-items: center;
+    gap: 2rem;
     p {
       position: relative;
       z-index: 9999;
       &:hover {
         cursor: pointer;
+      }
+    }
+    @include sm {
+      background-color: var(--background);
+      border-bottom: 1px black solid;
+      position: absolute;
+      z-index: 999;
+      top: 0;
+      left: 0;
+
+      padding: var(--padding-small);
+
+      flex-direction: column;
+      height: auto;
+      transform: translateY(-100%);
+      transition: transform .8s ease-in;
+      &.open {
+        transition: transform .8s ease;
+        transform: translateY(0);
       }
     }
   }

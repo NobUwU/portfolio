@@ -22,14 +22,14 @@ const About: React.FC = () => {
             <div className="item hover-git" onClick={() => newLocation("https://github.com/NobUwU")}>
               <GitHub />
             </div>
-            <div className="item hover-git discord" onClick={() => newLocation("https://discord.com/users/316669053957832706", true)}>
+            <div className="item hover-git" onClick={() => newLocation("https://discord.com/users/316669053957832706", true)}>
               <Discord />
             </div>
             <div className="item hover" onClick={() => newLocation("mailto:contact@nobuwu.dev", true)}>
               <At />
             </div>
           </div>
-          <img src="/render.webp" alt="me" />
+          <img src="/render.webp" alt="me" aria-hidden="true" />
         </div>
       </div>
     </section>

@@ -1,5 +1,6 @@
 import React from 'react'
 import { Route } from '../types'
+import GoodBorger from './GoodBorger'
 
 import "./Navbar.scss"
 
@@ -10,9 +11,11 @@ interface NavbarState {
 }
 
 const Navbar: React.FC<NavbarState> = (s) => {
+  const [borger, setBorger] = React.useState<boolean>(false)
+
   return (
-    <div id="nav">
-      <div className="inner">
+    <div id="nav" aria-hidden="true">
+      <div className={`inner ${borger ? "open" : ""}`}>
         {
           s.routes.map(i => {
             return (
@@ -20,6 +23,9 @@ const Navbar: React.FC<NavbarState> = (s) => {
             )
           })
         }
+      </div>
+      <div className="borgerArea" onClick={() => setBorger(!borger)}>
+        <GoodBorger open={borger} />
       </div>
     </div>
   )

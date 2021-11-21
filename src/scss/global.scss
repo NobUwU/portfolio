@@ -34,16 +34,16 @@ body {
   width: 100%;
   // padding: 3rem;
 }
-.h {
-  font-family: 'Heading';
-  padding-top: 0.2rem;
+a:any-link {
+  text-decoration: none;
+  color: var(--accent);
+  &:hover {
+    text-decoration: underline;
+  }
 }
-.p {
-  font-family: 'Paragraph';
+.light {
+  font-family: 'ChivoLight', sans-serif;
 }
-.\37 {
-  font-family: '7seg';
-}
-.s {
-  font-family: 'Smol';
+.dark {
+  font-family: 'ChivoDark', sans-serif;
 }
