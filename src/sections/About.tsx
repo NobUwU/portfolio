@@ -12,7 +12,7 @@ const About: React.FC = () => {
   }
 
   return (
-    <section className="item-container">
+    <section className="item-container" tabIndex={-1}>
       <div id="about">
         <div className="content">
           <h1 className="offset-left">Hiya, I'm <span className="accent">Nobu.</span></h1>

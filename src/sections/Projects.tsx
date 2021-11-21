@@ -35,7 +35,7 @@ const Projects: React.FC = () => {
   }
 
   return (
-    <section className="item-container" aria-hidden="true">
+    <section className="item-container" aria-hidden="true" tabIndex={-1}>
       <div id="projects">
         <div className="content">
           {/* <h1>Some Stuff I Made :3</h1> */}
