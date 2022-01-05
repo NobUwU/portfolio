@@ -19,7 +19,7 @@ const About: React.FC = () => {
           <h1 className="dim">I code things.</h1>
           <p className="offset-down dim crunch">I'm a software developer located in East Moline, Illinois specializing in creating and designing high-quality websites and applications</p>
           <div className="socials">
-            <div className="item hover-git" onClick={() => newLocation("https://github.com/NobUwU")}>
+            <div className="item hover-git" onClick={() => newLocation("https://github.com/nobu-sh")}>
               <GitHub />
             </div>
             <div className="item hover-git" onClick={() => newLocation("https://discord.com/users/316669053957832706", true)}>

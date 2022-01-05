@@ -32,7 +32,7 @@ export const projects: Project[] = [
     refs: [
       {
         type: "github",
-        link: "https://github.com/nobuwu/sliceyjs",
+        link: "https://github.com/nobu-sh/sliceyjs",
       },
     ],
     technologies: ["Typescript", "NPM"],
@@ -45,7 +45,7 @@ export const projects: Project[] = [
     refs: [
       {
         type: "github",
-        link: "https://github.com/nobuwu/BeRP",
+        link: "https://github.com/nobu-sh/BeRP",
       },
     ],
     technologies: ["Typescript", "Minecraft", "Protodef", "UDP"],
@@ -84,7 +84,7 @@ export const projects: Project[] = [
     refs: [
       {
         type: "github",
-        link: "https://github.com/nobuwu/ani-migrate",
+        link: "https://github.com/nobu-sh/ani-migrate",
       },
     ],
     technologies: ["Typescript", "PostgreSQL"],
@@ -97,7 +97,7 @@ export const projects: Project[] = [
     refs: [
       {
         type: "github",
-        link: "https://github.com/nobuwu/singularity",
+        link: "https://github.com/nobu-sh/singularity",
       },
     ],
     technologies: ["Typescript"],
@@ -111,7 +111,7 @@ export const projects: Project[] = [
     refs: [
       {
         type: "github",
-        link: "https://github.com/nobuwu/realmz.xyz",
+        link: "https://github.com/nobu-sh/realmz.xyz",
       },
     ],
     technologies: ["Typescript", "Vue", "Sass", "Pug", "Webpack"],
