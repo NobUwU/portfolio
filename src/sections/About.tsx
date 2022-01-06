@@ -25,7 +25,7 @@ const About: React.FC = () => {
             <div className="item hover-git" onClick={() => newLocation("https://discord.com/users/316669053957832706", true)}>
               <Discord />
             </div>
-            <div className="item hover" onClick={() => newLocation("mailto:contact@nobuwu.dev", true)}>
+            <div className="item hover" onClick={() => newLocation("mailto:chat@nobu.sh", true)}>
               <At />
             </div>
           </div>
