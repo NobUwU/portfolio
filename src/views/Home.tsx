@@ -2,6 +2,7 @@ import React from 'react'
 import Navbar from '../components/Navbar'
 import About from '../sections/About'
 import Projects from '../sections/Projects'
+import Player from '../components/Player'
 import { routes } from '../config'
 import {
   useLocation,
@@ -55,6 +56,7 @@ const Home: React.FC = () => {
         <About />
         <Projects />
       </div>
+      <Player />
     </div>
   )
 }

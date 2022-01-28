@@ -9,6 +9,7 @@
     "lib": ["DOM", "ES2020", "WebWorker", "WebWorker.ImportScripts"],
     "allowSyntheticDefaultImports": true,
     "strictFunctionTypes": false,
+    "resolveJsonModule": true,
     "skipLibCheck": true,
     "jsx": "react",
     // "strict": true,

@@ -7,9 +7,12 @@ div#projects {
   width: 100%;
   div.content {
     width: 100%;
-    padding: 0 var(--padding-large) 2rem var(--padding-large);
+    padding: 0 var(--padding-large) 8rem var(--padding-large);
     @include lg {
-      padding: var(--padding-small);
+      padding: 0 var(--padding-small) 8rem var(--padding-small);
+    }
+    @include md {
+      padding: 0 0 8rem 0;
     }
     div.grid {
       width: 100%;
@@ -17,6 +20,7 @@ div#projects {
       grid-template-columns: repeat(3, 1fr);
       gap: 1rem;
       @include md {
+        gap: 0;
         grid-template-columns: 1fr;
       }
       div.item {
@@ -26,6 +30,9 @@ div#projects {
         width: auto;
         display: flex;
         grid-column: span 1;
+        @include md {
+          height: 25rem;
+        }
         &.span-2 {
           grid-column: span 2;
           @include md {
@@ -51,7 +58,7 @@ div#projects {
           width: 100%;
           height: 100%;
           background: linear-gradient(to bottom, transparent, #141414);
-          opacity: 0.7;
+          opacity: 0.8;
           // filter: blur(8px);
         }
         div.info {
@@ -67,13 +74,13 @@ div#projects {
           padding: 15px;
           h1 {
             font-weight: 200;
-            font-size: 1.1rem;
+            font-size: 1.3rem;
             background-color: rgba($color: #111216, $alpha: 0.75);
             padding: 8px;
             margin-right: 0.5rem;
           }
           p.description {
-            font-size: 0.75rem;
+            font-size: 0.85rem;
             background-color: rgba($color: #111216, $alpha: 0.75);
             padding: 8px;
           }
@@ -84,7 +91,7 @@ div#projects {
             flex-wrap: wrap;
             gap: 5px;
             p {
-              font-size: 0.6rem;
+              font-size: 0.7rem;
               background-color: rgba($color: #111216, $alpha: 0.75);
               padding: 5px;
               // color: var(--accent);

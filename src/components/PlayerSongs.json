@@ -1,0 +1,50 @@
+[
+  {
+    "name": "Charm In Autumn",
+    "artist": "ShoJitsu",
+    "img": "https://i1.sndcdn.com/artworks-WZZ5DXODhAGYIREh-y9dLZQ-t500x500.jpg",
+    "path": "/music/charm-in-autumn.m4a",
+    "url": "https://soundcloud.com/shojitsu/charm-in-autumn",
+    "artist_url": "https://soundcloud.com/shojitsu"
+  },
+  {
+    "name": "On Top",
+    "artist": "the girl next door",
+    "img": "https://i1.sndcdn.com/artworks-000322896788-5s67n6-t500x500.jpg",
+    "path": "/music/on-top.m4a",
+    "url": "https://soundcloud.com/imyourlovergirl/on-top",
+    "artist_url": "https://soundcloud.com/imyourlovergirl"
+  },
+  {
+    "name": "B.Y.S",
+    "artist": "keshi",
+    "img": "https://i1.sndcdn.com/artworks-uS0EJzqZSSrD-0-t500x500.jpg",
+    "path": "/music/b-y-s.m4a",
+    "url": "https://soundcloud.com/keshibeats/b-y-s",
+    "artist_url": "https://soundcloud.com/keshibeats"
+  },
+  {
+    "name": "Talk Dirty",
+    "artist": "Ren Carter",
+    "img": "https://i1.sndcdn.com/artworks-shahsuYrcoKKDGfD-zwG6Mw-t500x500.jpg",
+    "path": "/music/talk-dirty.m4a",
+    "url": "https://soundcloud.com/rencarter/talk-dirty-1",
+    "artist_url": "https://soundcloud.com/rencarter"
+  },
+  {
+    "name": "FIGHT! 2",
+    "artist": "Aests",
+    "img": "https://i1.sndcdn.com/artworks-igkgLcI5rmnZyhzp-uy8zCA-t500x500.jpg",
+    "path": "/music/fight-2.m4a",
+    "url": "https://soundcloud.com/aests/fight-2",
+    "artist_url": "https://soundcloud.com/aests"
+  },
+  {
+    "name": "REFRESH",
+    "artist": "Aests",
+    "img": "https://i1.sndcdn.com/artworks-ImpnveT2zVPYhRZa-rRZlCQ-t500x500.jpg",
+    "path": "/music/refresh.m4a",
+    "url": "https://soundcloud.com/aests/refresh",
+    "artist_url": "https://soundcloud.com/aests"
+  }
+]

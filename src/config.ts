@@ -24,18 +24,18 @@ export const routes: Route[] = [
 
 export const projects: Project[] = [
   {
-    name: "SliceyJS",
-    description: "Utility addon for the widely used [Discord API](https://discord.com/developers/docs/intro) module, [discord.js](https://github.com/discordjs/discord.js) 💫",
-    image: "/projects/compressed/webp/slicey.webp",
+    name: "BeAPI",
+    description: "BeAPI (an abbreviation for \"Bedrock edition API\") is an NPM create app wrapper for Minecrafts unstable gametest API.",
+    image: "/projects/compressed/webp/beapi.webp",
     position: "center center",
     span: 2,
     refs: [
       {
         type: "github",
-        link: "https://github.com/nobu-sh/sliceyjs",
+        link: "https://github.com/MCBE-Utilities/BeAPI",
       },
     ],
-    technologies: ["Typescript", "NPM"],
+    technologies: ["Typescript", "NPM", "Minecraft", "Gametest"],
   },
   {
     name: "BeRP",
@@ -58,7 +58,7 @@ export const projects: Project[] = [
     refs: [
       {
         type: "github",
-        link: "https://github.com/CherryBlossomTavern",
+        link: "https://github.com/nobu-sh/chat-server",
       },
     ],
     technologies: ["Typescript", "React", "Webpack", "Sass", "Express", "SQLite"],
