@@ -43,7 +43,7 @@ const Player: React.FC = () => {
 
   function play() {
     setPaused(false)
-    audioRef.current.volume = 0.3
+    audioRef.current.volume = 0.5
     audioRef.current.play()
   }
   function pause() {
