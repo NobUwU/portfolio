@@ -8,12 +8,12 @@
     "artist_url": "https://soundcloud.com/shojitsu"
   },
   {
-    "name": "On Top",
-    "artist": "the girl next door",
-    "img": "https://i1.sndcdn.com/artworks-000322896788-5s67n6-t500x500.jpg",
-    "path": "/music/on-top.m4a",
-    "url": "https://soundcloud.com/imyourlovergirl/on-top",
-    "artist_url": "https://soundcloud.com/imyourlovergirl"
+    "name": "Bluntscraps",
+    "artist": "jetson",
+    "img": "https://i1.sndcdn.com/artworks-000582064475-ythkku-t500x500.jpg",
+    "path": "/music/bluntscraps.m4a",
+    "url": "https://soundcloud.com/highimjetson/jetson-bsdu-bluntscraps-ep-out-on-spotify",
+    "artist_url": "https://soundcloud.com/highimjetson"
   },
   {
     "name": "B.Y.S",
@@ -24,27 +24,91 @@
     "artist_url": "https://soundcloud.com/keshibeats"
   },
   {
-    "name": "Talk Dirty",
-    "artist": "Ren Carter",
-    "img": "https://i1.sndcdn.com/artworks-shahsuYrcoKKDGfD-zwG6Mw-t500x500.jpg",
-    "path": "/music/talk-dirty.m4a",
-    "url": "https://soundcloud.com/rencarter/talk-dirty-1",
-    "artist_url": "https://soundcloud.com/rencarter"
+    "name": "Pink Lemonade",
+    "artist": "maxtaylor",
+    "img": "https://i1.sndcdn.com/artworks-000363974334-x5aoav-t500x500.jpg",
+    "path": "/music/pink-lemonade.m4a",
+    "url": "https://soundcloud.com/maxltaylor/pinklemonade",
+    "artist_url": "https://soundcloud.com/maxltaylor"
   },
   {
-    "name": "FIGHT! 2",
-    "artist": "Aests",
-    "img": "https://i1.sndcdn.com/artworks-igkgLcI5rmnZyhzp-uy8zCA-t500x500.jpg",
-    "path": "/music/fight-2.m4a",
-    "url": "https://soundcloud.com/aests/fight-2",
-    "artist_url": "https://soundcloud.com/aests"
+    "name": "Outta Time!",
+    "artist": "sxmpra",
+    "img": "https://i1.sndcdn.com/artworks-tLYHd68Ol0TrDfbf-BaQGwg-t500x500.jpg",
+    "path": "/music/outta-time.m4a",
+    "url": "https://soundcloud.com/sxmpra/outta-time-prod-cxxlion",
+    "artist_url": "https://soundcloud.com/sxmpra"
   },
   {
-    "name": "REFRESH",
-    "artist": "Aests",
-    "img": "https://i1.sndcdn.com/artworks-ImpnveT2zVPYhRZa-rRZlCQ-t500x500.jpg",
-    "path": "/music/refresh.m4a",
-    "url": "https://soundcloud.com/aests/refresh",
-    "artist_url": "https://soundcloud.com/aests"
+    "name": "Holy Smokes!",
+    "artist": "sxmpra",
+    "img": "https://i1.sndcdn.com/artworks-clrredQWyMUDksQw-N7IMUQ-t500x500.jpg",
+    "path": "/music/holy-smokes.m4a",
+    "url": "https://soundcloud.com/sxmpra/holy-smokes",
+    "artist_url": "https://soundcloud.com/sxmpra"
+  },
+  {
+    "name": "XXXMetaKnight",
+    "artist": "†YungKage†",
+    "img": "https://i1.sndcdn.com/artworks-ly4NPMR8SAtQD7Ul-2ZoheA-t500x500.jpg",
+    "path": "/music/xxxmetaknight.m4a",
+    "url": "https://soundcloud.com/yung_kage/xxxmetaknight-yung-kage-x-yumi",
+    "artist_url": "https://soundcloud.com/yung_kage"
+  },
+  {
+    "name": "Gladiator",
+    "artist": "XANAKIN SKYWOK",
+    "img": "https://i1.sndcdn.com/artworks-YGQursAJzYQixwrz-xHheuw-t500x500.jpg",
+    "path": "/music/gladiator.m4a",
+    "url": "https://soundcloud.com/xanakinskywok",
+    "artist_url": "https://soundcloud.com/xanakinskywok"
+  },
+  {
+    "name": "Wanderlust",
+    "artist": "Beartrap Sound",
+    "img": "https://i1.sndcdn.com/artworks-0KmBPQSlpHZl-0-t500x500.jpg",
+    "path": "/music/wanderlust.m4a",
+    "url": "https://soundcloud.com/beartrapsound/wanderlust",
+    "artist_url": "https://soundcloud.com/beartrapsound"
+  },
+  {
+    "name": "Sex Money Feelings Die",
+    "artist": "Lykke Li",
+    "img": "https://i1.sndcdn.com/artworks-y5Ns5FbkqGv3-0-t500x500.jpg",
+    "path": "/music/sex-money-feelings-die.m4a",
+    "url": "https://soundcloud.com/lykkeli/sex-money-feelings-die",
+    "artist_url": "https://soundcloud.com/lykkeli"
+  },
+  {
+    "name": "Paradise",
+    "artist": "Bazzi",
+    "img": "https://i1.sndcdn.com/artworks-000514602021-ik5bch-t500x500.jpg",
+    "path": "/music/paradise.m4a",
+    "url": "https://soundcloud.com/bazziworldwide/paradise",
+    "artist_url": "https://soundcloud.com/bazziworldwide"
+  },
+  {
+    "name": "Hysteria",
+    "artist": "Muse",
+    "img": "https://i1.sndcdn.com/artworks-mn4jO9Lzswtr-0-t500x500.jpg",
+    "path": "/music/hysteria.m4a",
+    "url": "https://soundcloud.com/muse/hysteria",
+    "artist_url": "https://soundcloud.com/muse"
+  },
+  {
+    "name": "Untethered Angel",
+    "artist": "Dream Theater",
+    "img": "https://i1.sndcdn.com/artworks-000496887951-s76k1l-t500x500.jpg",
+    "path": "/music/untethered-angel.m4a",
+    "url": "https://soundcloud.com/dreamtheaterofficial/untethered-angel",
+    "artist_url": "https://soundcloud.com/dreamtheaterofficial"
+  },
+  {
+    "name": "Zoom",
+    "artist": "Last Dinosaurs",
+    "img": "https://i1.sndcdn.com/artworks-ezNQuyEugePM-0-t500x500.png",
+    "path": "/music/zoom.m4a",
+    "url": "https://soundcloud.com/lastdinosaurs",
+    "artist_url": "https://soundcloud.com/lastdinosaurs"
   }
 ]
