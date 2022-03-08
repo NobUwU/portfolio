@@ -16,4 +16,5 @@ const Borger: React.FC<BorgerState> = (s) => (
   </div>
 ) 
 
+
 export default Borger
