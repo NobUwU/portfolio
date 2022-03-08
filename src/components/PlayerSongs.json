@@ -6,5 +6,53 @@
     "path": "/music/Heart - Barracuda.mp3",
     "url": "https://soundcloud.com/heartofficial/barracuda-3",
     "artist_url": "https://soundcloud.com/heartofficial"
+  },
+  {
+    "name": "Hold the Line",
+    "artist": "TOTO",
+    "img": "https://i1.sndcdn.com/artworks-DFwGKLSiAVXj-0-t500x500.jpg",
+    "path": "/music/TOTO - Hold the Line.mp3",
+    "url": "https://soundcloud.com/toto-official/hold-the-line-2",
+    "artist_url": "https://soundcloud.com/toto-official"
+  },
+  {
+    "name": "Baba O'Riley",
+    "artist": "The Who",
+    "img": "https://i1.sndcdn.com/artworks-20BuntpVI7ot-0-t500x500.jpg",
+    "path": "/music/The Who - Baba O'Riley.mp3",
+    "url": "https://soundcloud.com/thewho/baba-oriley-original-album",
+    "artist_url": "https://soundcloud.com/thewho"
+  },
+  {
+    "name": "Heartbreaker",
+    "artist": "Pat Benatar",
+    "img": "https://i1.sndcdn.com/artworks-uLmpOhziX1b0-0-t500x500.jpg",
+    "path": "/music/Pat Benatar - Heartbreaker.mp3",
+    "url": "https://soundcloud.com/pat-benatar-official/heartbreaker-1",
+    "artist_url": "https://soundcloud.com/pat-benatar-official"
+  },
+  {
+    "name": "Separate Ways (Worlds Apart)",
+    "artist": "Journey",
+    "img": "https://i1.sndcdn.com/artworks-bpovrUaVHtam-0-t500x500.jpg",
+    "path": "/music/Journey - Separate Ways (Worlds Apart).mp3",
+    "url": "https://soundcloud.com/journey-official/separate-ways-worlds-apart-1",
+    "artist_url": "https://soundcloud.com/journey-official"
+  },
+  {
+    "name": "Break My Stride",
+    "artist": "Matthew Wilder",
+    "img": "https://i1.sndcdn.com/artworks-aPP4q0eFW3M9-0-t500x500.jpg",
+    "path": "/music/Matthew Wilder - Break My Stride.mp3",
+    "url": "https://soundcloud.com/matthew-wilder-official/break-my-stride",
+    "artist_url": "https://soundcloud.com/matthew-wilder-official"
+  },
+  {
+    "name": "I Will Survive - Single Version",
+    "artist": "Gloria Gaynor",
+    "img": "https://i1.sndcdn.com/artworks-6aeb1860-7326-42d6-bb33-b94801236dbd-0-t500x500.jpg",
+    "path": "/music/Gloria Gaynor - I Will Survive - Single Version.mp3",
+    "url": "https://soundcloud.com/gloria-gaynor/i-will-survive-single-version",
+    "artist_url": "https://soundcloud.com/gloria-gaynor"
   }
 ]

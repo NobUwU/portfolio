@@ -52,6 +52,7 @@ const Player: React.FC = () => {
   }
 
   function prev() {
+    if (audioRef.current.currentTime > 3) return audioRef.current.currentTime = 0
     if (curSong === 0) setCurSong(PlayerSongs.length - 1)
     else setCurSong(curSong - 1)
 
